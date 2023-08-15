@@ -5,6 +5,8 @@
 # Imagined Handwriting 
 In 2021, Willett et al. released a groundbreaking study entitled "High-performance brain-to-text communication via handwriting" that demonstrated outstanding decoding of imagined handwriting. This repository contains the efforts at [AE Studio](https://ae.studio/neurotechnology-consulting) to reproduce the original results and explore modifications to the original methods. We found that the original study's results were highly robust and reproducible. We are publicly releasing our investigation and code to assist others in the field who wish to explore and extend this groundbreaking research.
 
+The `gif` above shows a demo of our alternative implementation of the imagined handwriting decoder running in **real time**. On the right, we show a raster plot of the spike rates going into the decoder, and on the left, the decoded sentence.
+
 ## Acknowledgements
 This work is based entirely on the seminal paper
 > Willett, F.R., Avansino, D.T., Hochberg, L.R. et al. High-performance brain-to-text communication via handwriting. Nature 593, 249–254 (2021).
